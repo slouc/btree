@@ -1,4 +1,4 @@
-btree
+Binary search tree
 =====
 
-Binary search tree implemented in Scala.
+Standard BST, but implemented in a purely functional way.
