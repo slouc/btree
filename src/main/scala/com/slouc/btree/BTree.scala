@@ -94,8 +94,8 @@ class NonEmpty(elem: Int, left: BTree, right: BTree) extends BTree {
           new NonEmpty(ne getMin, left, right del (ne getMin))
         case Empty => left
       }
-    } else if (x < elem) new NonEmpty(elem, left del (x), right)
-    else new NonEmpty(elem, left, right del (x))
+    } else if (x < elem) new NonEmpty(elem, left del x, right)
+    else new NonEmpty(elem, left, right del x)
   }
 
   def contains(x: Int): Boolean =
