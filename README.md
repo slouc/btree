@@ -1,4 +1,4 @@
 Binary search tree
 =====
 
-Standard BST, but implemented in a purely functional way.
+Implementation of binary search tree without mutable states.
