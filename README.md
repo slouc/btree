@@ -1,4 +1,4 @@
-btree
+Binary search tree
 =====
 
-binary search tree implemented in purely functional fashion (scala)
+Implementation of binary search tree without mutable states.
