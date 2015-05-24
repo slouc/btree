@@ -1,7 +1,5 @@
 package com.slouc.btree
 
-import java.util.NoSuchElementException
-
 /**
  * Class represents a classic binary search tree.
  * <br><br>

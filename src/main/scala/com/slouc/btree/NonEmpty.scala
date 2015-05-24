@@ -14,7 +14,7 @@ class NonEmpty(elem: Int, left: BTree, right: BTree) extends BTree {
     else if (x > elem) new NonEmpty(elem, left, right insert x)
     else this
 
-  def del(x: Int) = {
+  def del(x: Int): BTree = {
     if (x == elem) {
       right match {
         case ne: NonEmpty =>
