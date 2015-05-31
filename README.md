@@ -1,4 +1,4 @@
 Functional binary search tree
 =====
 
-Implementation of binary search tree without mutable states.
+Implementation of binary search tree in Scala in purely functional fashion
