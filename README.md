@@ -1,4 +1,4 @@
-Functional binary search tree
+Binary search tree
 =====
 
-Implementation of binary search tree in Scala
+Purely functional implementation of binary search tree in Scala. 
